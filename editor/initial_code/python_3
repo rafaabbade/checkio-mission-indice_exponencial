@@ -1,1 +1,13 @@
-{{CODIGO INICIAL}}
+def indice_exponencial(lista, N):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(indice_exponencial([2, 3, 4, 5], 2))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert indice_exponencial([2, 3, 4, 5], 2) ==  9 # 3ˆ2
+assert indice_exponencial([1, 2, 3], 3) == 27  # 3^3
+assert indice_exponencial([7, 8, 9], 5) == -1
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
